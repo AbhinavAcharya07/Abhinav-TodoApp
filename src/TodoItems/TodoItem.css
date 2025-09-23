@@ -1,0 +1,28 @@
+.fullbar{
+    padding: 10px;
+    margin: 18px 0px;
+}
+.inputBar{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+}
+
+.delete1{
+    height: 30px;
+    width: 90%;
+    padding: 0px 3px 0px 19px;
+    margin: 0 auto;
+}
+.delete{
+     height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+}
+#but{
+    border-radius: 15px;
+    background: red;
+    cursor: pointer;
+}

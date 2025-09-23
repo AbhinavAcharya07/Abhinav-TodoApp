@@ -1,0 +1,42 @@
+
+.barr{
+    padding: 5px;
+    margin: 20px ;
+}
+.input{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+   
+}
+.full1{
+    height: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+.full{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+}
+.add1{
+    height: 30px;
+    width: 90%;
+    padding: 0px 3px 0px 19px;
+    margin: 0 auto;
+}
+.add{
+     height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+}
+#butt{
+    border-radius: 15px;
+    background:green;
+    cursor: pointer;
+}
