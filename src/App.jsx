@@ -3,21 +3,7 @@ import TodoBar from "./TodoBar/TodoBar";
 import TodoItems from "./TodoItems/TodoItems";
 import WelcomeMsg from "./WelcomeMsg/WelcomeMsg";
 const App = () => {
-  const InitialtodoItems = [
-    {
-      name: "buy milk",
-      dueDate: "12/12/2025",
-    },
-    {
-      name: "buy soap",
-      dueDate: "12/12/2025",
-    },
-    {
-      name: "buy ghee",
-      dueDate: "12/12/2025",
-    },
-  ];
-  const [todoItems, settodoItems] = useState(InitialtodoItems);
+  const [todoItems, settodoItems] = useState([]);
   const handleNewItem = (itemName, itemDueDate) => {
     console.log(`new item : ${itemName} date:${itemDueDate}`);
     const newtoDoItems = [
