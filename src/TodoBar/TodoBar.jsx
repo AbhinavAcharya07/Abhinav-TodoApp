@@ -33,6 +33,7 @@ const TodoBar = (props) => {
         <div className="full1">
           <input
             className="full"
+            id="dateCursor"
             type="date"
             value={todoDueDate}
             onChange={handleDueDateChange}
@@ -40,7 +41,12 @@ const TodoBar = (props) => {
         </div>
 
         <div className="full1">
-          <button className="full" id="butt" onClick={handleAddButtonClick}>
+          <button
+            className="full"
+            id="butt"
+            onClick={handleAddButtonClick}
+            disabled={todoName.trim() === "" || todoDueDate.trim() === ""}
+          >
             Add
           </button>
         </div>

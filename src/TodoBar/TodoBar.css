@@ -21,22 +21,11 @@
     text-align: center;
     font-size: large;
 }
-.add1{
-    height: 30px;
-    width: 90%;
-    padding: 0px 3px 0px 19px;
-    margin: 0 auto;
-}
-.add{
-     height: 40px;
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 5px;
-    text-align: center;
-    font-size: large;
+#dateCursor{
+    cursor: text;
 }
 #butt{
     border-radius: 15px;
     background:green;
-    cursor: pointer;
+    
 }
